@@ -1,0 +1,43 @@
+\chapter{関連研究}
+\label{related}
+
+本章では本研究における関連研究について述べる．
+
+\subsection{Yamaha Syncroom}
+従来のネットワーク音楽円増のシステムとして最も顕著なものとしてYamahaのSyncroomがある．
+これはヤマハ株式会社が開発した低遅延で複数人がオンライン遠隔合奏を行うためのシステムである．
+
+\subsection{JackTrip}
+JackTripはフリーで開発されているネットワーク音楽演奏システムである．
+音声と映像を両方送受信を行うことができるうえ，音響エフェクトの適用，高度な通信設定などの様々な機能を持っている．
+
+\subsection{LoLa}
+LoLa (LOw LAtency audio visual streaming system )は高度なネットワーク上で音声と映像をリアルタイムで送信するネットワーク音楽演奏システムである．
+
+\section{Adaptive Metronome}
+BattelloらによるAdaptive Metronome\cite{admet}\cite{admet:experiment}は，演奏者の演奏をリアルタイムで分析し，演奏者の演奏に合わせてメトロノームのテンポを変化させるシステムである．
+はじめに実装したAdaptive Metronomeは親子構造を持っている．
+親の演奏者は演奏すると同時にシステムはリアルタイムでその演奏の拍を推定し，子演奏者に音声と拍情報を送信する．
+子演奏者のシステムはその情報を受取り，親演奏者の演奏に合わせてメトロノームのテンポを変化させる．
+またこのときメトロノームの音は親から子への遅延を考慮して位相をずれして再生される．
+
+このシステムを用いた実験では120msの遅延下での演奏を行ったうえでも，被験者は抵抗を感じることなく演奏することができたという結果が得られた．\cite{admet}
+
+\subsection{相互メトロノームの実験}
+当初のAdaptive Metronomeの実験では，親演奏者の演奏を子演奏者が聴き，それに合わせて演奏するという形で実験が行われた．
+後にBatteloらは親子構造を持たず，相互的にAdaptive Metronomeを聞きあう実験を行った．
+
+\subsection{共通テンポの算出}
+相互的にAdaptive Metronomeを聞きあう実験では，親子構造を持たないため，親の演奏者と子の演奏者のテンポと位相が異なる場合がある．
+このとき２人の演奏者の状況を踏まえたうえで両方の演奏が同期するような共通のテンポを算出する必要がある．
+
+\section{Tablanet}
+Tablanet\cite{tablanet}は，タブラ奏者の演奏をリアルタイムで分析し，演奏者の演奏に合わせてタブラのテンポを変化させるシステムである．
+
+\section{Alexandraki}
+Alexandrakiらによる研究\cite{alexandraki:2013}\cite{alexandraki:2014}では，演奏者の演奏をリアルタイムで分析し，事前収録した演奏を実際の演奏に合わせて再生するシステムを提案している．
+
+%%% Local Variables:
+%%% mode: japanese-latex
+%%% TeX-master: "．/thesis"
+%%% End:
