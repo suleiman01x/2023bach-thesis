@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="grad2023.svg"
+   inkscape:export-filename="D:\研究\2023bach-thesis\src\img\g1736.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="42.474327"
+     inkscape:cy="1032.3632"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g928"
+     showgrid="false"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-center="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="384"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g928">
+      <g
+         transform="translate(-6.9259652,45.752055)"
+         id="g1000-3">
+        <rect
+           y="80.778954"
+           x="29.867367"
+           height="9.4528627"
+           width="15.727316"
+           id="rect991-8"
+           style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+        <text
+           id="text995-9"
+           y="87.020653"
+           x="33.180561"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Mgen+ 1p';-inkscape-font-specification:'Mgen+ 1p';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="stroke-width:0.26458332"
+             y="87.020653"
+             x="33.180561"
+             id="tspan993-9"
+             sodipodi:role="line">MIDI</tspan></text>
+      </g>
+      <g
+         transform="translate(29.528396,66.374506)"
+         id="g989-1">
+        <g
+           id="g864-3"
+           transform="matrix(0.84594627,0,0,1,-22.183243,0)"
+           style="stroke-width:1.08724797">
+          <path
+             sodipodi:nodetypes="ccccccc"
+             inkscape:connector-curvature="0"
+             id="rect825-8"
+             d="m 43.702558,64.742819 v 9.220625 24.321511 H 94.868163 V 73.963444 64.742819 Z"
+             style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.54362398;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path851-8"
+             d="M 43.702558,73.295403 H 94.868159"
+             style="fill:none;stroke:#000000;stroke-width:0.54362398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+        <text
+           id="text982-2"
+           y="71.111984"
+           x="16.536457"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:'Mgen+ 1p';-inkscape-font-specification:'Mgen+ 1p';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="stroke-width:0.26458332"
+             y="71.111984"
+             x="16.536457"
+             id="tspan980-5"
+             sodipodi:role="line">OSCメッセージ</tspan></text>
+      </g>
+      <g
+         id="g1228"
+         transform="translate(19.435951,-5.2117549)" />
+      <g
+         id="g1736"
+         transform="translate(0.75595238,1.889881)"
+         inkscape:export-filename="D:\研究\2023bach-thesis\src\img\g1736.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
+        <rect
+           y="0.85565442"
+           x="1.5119048"
+           height="48.569939"
+           width="147.41072"
+           id="rect1682"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+        <g
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="D:\研究\2023bach-thesis\src\1680.png"
+           transform="translate(-29.104167,-53.105654)"
+           id="g1680">
+          <g
+             id="g989"
+             transform="translate(19.435947,-5.7484394)">
+            <g
+               style="stroke-width:1.08724797"
+               transform="matrix(0.84594627,0,0,1,-22.183243,0)"
+               id="g864">
+              <path
+                 style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.54362398;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+                 d="M 43.702558,64.745059 V 74.91258 101.73175 H 94.868163 V 74.91258 64.745059 Z"
+                 id="rect825"
+                 inkscape:connector-curvature="0"
+                 sodipodi:nodetypes="ccccccc" />
+              <path
+                 style="fill:none;stroke:#000000;stroke-width:0.54362398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                 d="M 43.702562,73.832087 H 94.868163"
+                 id="path851"
+                 inkscape:connector-curvature="0" />
+            </g>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:'Mgen+ 1p';-inkscape-font-specification:'Mgen+ 1p';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+               x="16.536457"
+               y="71.446068"
+               id="text982"><tspan
+                 sodipodi:role="line"
+                 id="tspan980"
+                 x="16.536457"
+                 y="71.446068"
+                 style="stroke-width:0.26458332">OSCメッセージ</tspan></text>
+          </g>
+          <g
+             transform="translate(8.253734,-9.0136845)"
+             id="g1000">
+            <rect
+               style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+               id="rect991"
+               width="15.727316"
+               height="9.4528627"
+               x="29.867367"
+               y="80.778954" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Mgen+ 1p';-inkscape-font-specification:'Mgen+ 1p';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+               x="33.180561"
+               y="87.020653"
+               id="text995"><tspan
+                 sodipodi:role="line"
+                 id="tspan993"
+                 x="33.180561"
+                 y="87.020653"
+                 style="stroke-width:0.26458332">MIDI</tspan></text>
+          </g>
+          <g
+             transform="translate(19.435951,-4.9282728)"
+             id="g1130">
+            <g
+               id="g1162">
+              <text
+                 id="text1122"
+                 y="87.150887"
+                 x="54.932961"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Mgen+ 1p';-inkscape-font-specification:'Mgen+ 1p';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                 xml:space="preserve"
+                 transform="translate(-11.938169,-4.0854151)"><tspan
+                   style="stroke-width:0.26458332"
+                   y="87.150887"
+                   x="54.932961"
+                   id="tspan1120"
+                   sodipodi:role="line">int</tspan></text>
+            </g>
+            <g
+               id="g1000-6"
+               transform="translate(7.9096003,-3.7628257)">
+              <rect
+                 y="80.456367"
+                 x="30.188131"
+                 height="9.4528627"
+                 width="15.727316"
+                 id="rect991-86"
+                 style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+            </g>
+          </g>
+          <g
+             id="g1000-3-7"
+             transform="translate(17.919947,2.2874261)">
+            <g
+               id="g1205">
+              <rect
+                 y="80.778954"
+                 x="26.229345"
+                 height="9.4528627"
+                 width="23.003357"
+                 id="rect991-8-5"
+                 style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.49999997;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Mgen+ 1p';-inkscape-font-specification:'Mgen+ 1p';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                 x="31.315037"
+                 y="87.183327"
+                 id="text1200"><tspan
+                   sodipodi:role="line"
+                   id="tspan1198"
+                   x="31.315037"
+                   y="87.183327"
+                   style="stroke-width:0.26458332">その他</tspan></text>
+            </g>
+          </g>
+          <g
+             id="g1598"
+             transform="translate(-14.699824,8.9535288)">
+            <g
+               id="g1130-9"
+               transform="translate(111.05946,-2.3782731)">
+              <g
+                 transform="translate(-1.2695303,0.4009043)"
+                 id="g1162-9">
+                <text
+                   xml:space="preserve"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Mgen+ 1p';-inkscape-font-specification:'Mgen+ 1p';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                   x="40.656181"
+                   y="82.865021"
+                   id="text1122-8"><tspan
+                     sodipodi:role="line"
+                     id="tspan1120-1"
+                     x="40.656181"
+                     y="82.865021"
+                     style="stroke-width:0.26458332">32bit</tspan></text>
+              </g>
+              <g
+                 style="stroke-width:1.1834476"
+                 transform="matrix(0.87721692,0,0,0.81394483,11.479229,12.497529)"
+                 id="g1000-6-4">
+                <rect
+                   style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5917238;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+                   id="rect991-86-5"
+                   width="15.727316"
+                   height="9.4528627"
+                   x="30.188131"
+                   y="80.456367" />
+              </g>
+              <g
+                 transform="translate(14.465964,0.39015362)"
+                 id="g1162-9-9">
+                <text
+                   xml:space="preserve"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Mgen+ 1p';-inkscape-font-specification:'Mgen+ 1p';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                   x="40.656181"
+                   y="82.865021"
+                   id="text1122-8-9"><tspan
+                     sodipodi:role="line"
+                     id="tspan1120-1-4"
+                     x="40.656181"
+                     y="82.865021"
+                     style="stroke-width:0.26458332">32bit</tspan></text>
+              </g>
+              <g
+                 style="stroke-width:1.1834476"
+                 transform="matrix(0.87721691,0,0,0.81394483,27.214725,12.486778)"
+                 id="g1000-6-4-5">
+                <rect
+                   style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5917238;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+                   id="rect991-86-5-6"
+                   width="15.727316"
+                   height="9.4528627"
+                   x="30.188131"
+                   y="80.456367" />
+              </g>
+            </g>
+            <g
+               transform="translate(89.054594,4.7440903)"
+               id="g1228-9">
+              <g
+                 id="g989-2">
+                <g
+                   id="g864-5"
+                   transform="matrix(0.84594627,0,0,1,-22.183243,0)"
+                   style="stroke-width:1.08724797" />
+                <g
+                   id="g1556">
+                  <rect
+                     transform="matrix(0.84594626,0,0,1,-22.183244,0)"
+                     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.54362398;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+                     id="rect1396"
+                     width="102.36998"
+                     height="39.96101"
+                     x="40.216274"
+                     y="45.296761" />
+                  <path
+                     transform="matrix(0.84594626,0,0,1,-22.183244,0)"
+                     style="fill:none;stroke:#000000;stroke-width:0.54362398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                     d="M 40.216272,54.386029 H 142.58625"
+                     id="path1400"
+                     inkscape:connector-curvature="0" />
+                  <g
+                     style="stroke-width:1.08724797"
+                     id="g1468"
+                     transform="matrix(0.84594626,0,0,1,-20.60111,0.05535321)">
+                    <path
+                       sodipodi:nodetypes="ccccccc"
+                       inkscape:connector-curvature="0"
+                       id="rect825-7-4"
+                       d="m 91.922576,59.790175 v 5.771948 15.224836 H 133.53206 V 65.562123 59.790175 Z"
+                       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.54362398;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+                    <path
+                       inkscape:connector-curvature="0"
+                       id="path851-1-7"
+                       d="M 91.922576,68.350917 H 133.53205"
+                       style="fill:none;stroke:#000000;stroke-width:0.54362398;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                    <text
+                       transform="scale(1.087248,0.91975336)"
+                       id="text982-7-7"
+                       y="71.75264"
+                       x="87.305664"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.13691092px;line-height:1.25;font-family:'Mgen+ 1p';-inkscape-font-specification:'Mgen+ 1p';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28766769"
+                       xml:space="preserve"><tspan
+                         style="font-size:4.60268307px;stroke-width:0.28766769"
+                         y="71.75264"
+                         x="87.305664"
+                         id="tspan980-2-4"
+                         sodipodi:role="line">OSCタイムタグ</tspan></text>
+                  </g>
+                  <g
+                     id="g1533"
+                     transform="translate(3.240811,0.1889881)">
+                    <path
+                       sodipodi:nodetypes="ccccccc"
+                       inkscape:connector-curvature="0"
+                       id="rect825-7"
+                       d="m 14.657009,65.120348 v 2.767982 7.301186 H 49.856394 V 67.88833 65.120348 Z"
+                       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+                    <text
+                       id="text982-7"
+                       y="71.530731"
+                       x="17.195133"
+                       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:'Mgen+ 1p';-inkscape-font-specification:'Mgen+ 1p';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                       xml:space="preserve"><tspan
+                         style="font-size:4.23333311px;stroke-width:0.26458332"
+                         y="71.530731"
+                         x="17.195133"
+                         id="tspan980-2"
+                         sodipodi:role="line">OSCメッセージ</tspan></text>
+                  </g>
+                  <text
+                     xml:space="preserve"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:'Mgen+ 1p';-inkscape-font-specification:'Mgen+ 1p';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                     x="34.966484"
+                     y="52.022118"
+                     id="text982-7-0"><tspan
+                       sodipodi:role="line"
+                       id="tspan980-2-7"
+                       x="34.966484"
+                       y="52.022118"
+                       style="stroke-width:0.26458332">OSCバンドル</tspan></text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

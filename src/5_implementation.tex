@@ -4,7 +4,31 @@
 本章では提案手法の実装について述べる．
 
 \section{拍認識の実装}
-拍認識には様々な手法が存在する．
+演奏予測を行い，相手の演奏を再生するためには２人の演奏のテンポを知る必要がある．
+人間的な誤差，または表現の一環として楽曲を通して演奏のテンポは変化していくため，リアルタイムで直近数秒間の演奏を参照して現在のテンポを認識するアルゴリズムが必要である．
+本システムの拍認識では\cite{dixon:2000}で使われたアルゴリズムを用いる．
+
+この拍認識アルゴリズムではDixonのアルゴリズム\cite{dixon}に従って打鍵間隔(Inter-onset interval: IOI)のクラスタリングを行う．
+IOIとは任意の２つの音の開始時点の時間間隔のことを指す．
+このアルゴリズムの分脈では0.025秒から2.5秒の間のIOIしか扱わず，これより小さいIOIは「同時に鳴った音」として扱う．
+とある演奏区間に存在するすべての有効なIOIに対し以下のようにクラスタリングを行う．
+
+\begin{algorithm}
+  \caption{Dixon's IOI Clustering Algorithm}
+\begin{algorithmic}[1]
+\For{each pair of onset times \( t_i, t_j \) with \( t_i < t_j \)}
+    \If{\( 0.025 < t_j - t_i < 2.5 \)}
+        \State Let \( I = t_j - t_i \)
+        \State Find cluster \( C_k \) such that \( | \text{Average}(C_k) - I | \) is minimum
+        \If{\( k \) exists and \( | \text{Average}(C_k) - I | < \Delta \)}
+            \State \( C_k \gets C_k \cup \{ I \} \)
+        \Else
+            \State Create new cluster \( C_m := \{ I \} \)
+        \EndIf
+    \EndIf
+\EndFor
+\end{algorithmic}
+\end{algorithm}
 
 \section{演奏予測の実装}
 演奏予測には様々な手法が存在する．

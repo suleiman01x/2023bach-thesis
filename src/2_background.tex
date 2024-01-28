@@ -5,7 +5,7 @@
 
 \section{ネットワーク音楽演奏}
 ネットワーク音楽演奏で演奏を届ける手法は，VoIPアプリケーションのように音声の波形情報を処理し低遅延で届ける方法\cite{syncroom}\cite{lola}\cite{jacktrip}，演奏情報をMIDIを使い楽器，音程，強度などに抽象化し，受信した機器が演奏データを元に音を合成するという方法\cite{rtpmidi}\cite{sourcenode}と，２種類の手法に分けることができる．
-本研究では演奏予測を扱いやすい後者の手法をとる．
+本研究では演奏予測を扱いやすい後者の手法を用いる．
 
 \section{ネットワーク音楽演奏システムの構造}
 
@@ -13,16 +13,23 @@
 本研究では演奏をMIDIの形式であらわし，演奏情報を伝達する．
 MIDIとは
 
-\section{OpenSound Control}
-OpenSound Control (OSC)\cite{opensoundcontrol}はソフトやコンピュータ同士でリアルタイムの通信を行うためのプロトコルである．
+\section{Open Sound Control}
+Open Sound Control (OSC)\cite{opensoundcontrol}はソフトやコンピュータ同士でリアルタイムの通信を行うためのプロトコルである．
 元々ネットワークを経由した楽器の演奏を前提として開発されているためデータ型としてMIDIを使えるうえ，時刻タグ(OSC Time Tag)をメッセージとまとめて送ることで正確な音の再生のタイミングを送信者から指定することが可能である．
 そのうえ，OSCは広く使われていてライブラリや実装が豊富であるため本研究のシステムで採用した．
 
-% GRAPH: OSC BUNDLE AND MESSAGE
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\linewidth]{src/img/g1736.png}
+  \caption{OSCメッセージとOSCバンドル}
+  \label{fig:oscmess}
+\end{figure}
 
 OSCのメッセージは単体で，もしくは時刻を指定して同時に再生する複数のメッセージをバンドルにまとめて送ることができる．
 32ビットでUNIX時間での秒数を，32ビットで秒数の小数部を表す時刻タグをOSCで使用されるため高解像度で再生の管理が可能であり，時刻タグの精度は本研究では十分とする．
 
+OSCサーバーがOSCメッセージやOSCバンドルを受信するとそれらを引数としてOSCメソッドが実行される．
+OSCメソッドはOSCアドレス空間というツリー構造の中に配置され，OSCメッセージやOSCバンドルに付属されるOSCアドレスを宛先として実行されるOSCメソッドが選ばれる．
 
 \section{Adaptive Metronome}
 BattelloらによるAdaptive Metronome\cite{admet}\cite{admet:experiment}は，演奏者の演奏をリアルタイムで分析し，演奏者の演奏に合わせてメトロノームのテンポを変化させるシステムである．
