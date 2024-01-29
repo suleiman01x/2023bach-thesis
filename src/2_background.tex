@@ -4,39 +4,27 @@
 本章では本研究の背景について述べる．
 
 \section{ネットワーク音楽演奏}
+\label{background:nmp}
+一概にネットワーク音楽演奏と呼んでも様々なものがある．
+ここでは本研究で扱うネットワーク音楽演奏システムのスコープを定義づける．
+
+
+
 ネットワーク音楽演奏で演奏を届ける手法は，VoIPアプリケーションのように音声の波形情報を処理し低遅延で届ける方法\cite{syncroom}\cite{lola}\cite{jacktrip}，演奏情報をMIDIを使い楽器，音程，強度などに抽象化し，受信した機器が演奏データを元に音を合成するという方法\cite{rtpmidi}\cite{sourcenode}と，２種類の手法に分けることができる．
+
 本研究では次の仕様のネットワーク音楽演奏システムを扱う．
 
 \begin{itemize}
   \item 1対1の合計2人の演奏者を扱う．
   \item 演奏情報をMIDI形式で送受信する．
+  \item 楽譜などの事前に演奏に関する情報はない．
   \item 最大160msの遅延が発生する．
 \end{itemize}
 
-\section{スマートネットワーク音楽演奏}
-\cite{alexandraki:2013} \cite{admet}
-
-\section{演奏情報の表現}
-本研究では演奏をMIDIの形式であらわし，演奏情報を伝達する．
-MIDIとは
-
-\section{Open Sound Control}
-Open Sound Control (OSC)\cite{opensoundcontrol}はソフトやコンピュータ同士でリアルタイムの通信を行うためのプロトコルである．
-元々ネットワークを経由した楽器の演奏を前提として開発されているためデータ型としてMIDIを使えるうえ，時刻タグ(OSC Time Tag)をメッセージとまとめて送ることで正確な音の再生のタイミングを送信者から指定することが可能である．
-そのうえ，OSCは広く使われていてライブラリや実装が豊富であるため本研究のシステムで採用した．
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.8\linewidth]{src/img/g1736.png}
-  \caption{OSCメッセージとOSCバンドル}
-  \label{fig:oscmess}
-\end{figure}
-
-OSCのメッセージは単体で，もしくは時刻を指定して同時に再生する複数のメッセージをバンドルにまとめて送ることができる．
-32ビットでUNIX時間での秒数を，32ビットで秒数の小数部を表す時刻タグをOSCで使用されるため高解像度で再生の管理が可能であり，時刻タグの精度は本研究では十分とする．
-
-OSCサーバーがOSCメッセージやOSCバンドルを受信するとそれらを引数としてOSCメソッドが実行される．
-OSCメソッドはOSCアドレス空間というツリー構造の中に配置され，OSCメッセージやOSCバンドルに付属されるOSCアドレスを宛先として実行されるOSCメソッドが選ばれる．
+\section{インテリジェントネットワーク音楽演奏}
+ネットワーク音楽演奏システムの中でも単に現実の音楽演奏とできるだけ近づくようにAからBへと演奏情報を低遅延で正確に届けるだけでなく，遅延の対処するため，演奏の没入感を高めるためなど，ネットワーク音楽演奏の課題点を独自の手法で解決するシステムは多数存在する．
+これらを\cite{impedence}では「Intelligent Networked Music Performance (インテリジェントネットワーク音楽演奏)」と呼んでいる．
+\cite{tablanet}\cite{alexandraki:2014}\cite{alexandraki:2013} \cite{admet}
 
 \section{Adaptive Metronome}
 BattelloらによるAdaptive Metronome\cite{admet}\cite{admet:experiment}は，演奏者の演奏をリアルタイムで分析し，演奏者の演奏に合わせてメトロノームのテンポを変化させるシステムである．
@@ -64,6 +52,5 @@ Adaptive Metronomeは親子構造を持っている．
 % 以降は最後にメンション
 \section{Tablanet}
 Tablanet\cite{tablanet}は，タブラ奏者の演奏をリアルタイムで分析し，演奏者の演奏に合わせてタブラのテンポを変化させるシステムである．
-
 \section{Alexandraki}
 Alexandrakiらによる研究\cite{alexandraki:2013}\cite{alexandraki:2014}では，演奏者の演奏をリアルタイムで分析し，事前収録した演奏を実際の演奏に合わせて再生するシステムを提案している．
